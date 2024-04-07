@@ -1,0 +1,14 @@
+.image-container {
+  overflow: hidden;
+  width: 100%; /* 或指定宽度 */
+  height: 100%; /* 或指定高度 */
+}
+.custom-object-position {
+  object-position: center 5px; /* 水平居中，垂直下移20px */
+  transform: scale(1.1); /* 放大到110% */
+  transition: transform 0.3s ease-in-out; /* 可选：添加平滑过渡效果 */
+  overflow: hidden;
+}
+
+
+
