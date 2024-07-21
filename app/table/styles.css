@@ -1,0 +1,98 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.plan-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-header strong {
+    font-size: 1.2em;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #ddd;
+    height: 30px;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress {
+    background: #4caf50;
+    height: 100%;
+    transition: width 0.5s;
+}
+
+.debt-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.debt-list input {
+    margin-right: 10px;
+}
+
+.debt-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.debt-list li {
+    background-color: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
